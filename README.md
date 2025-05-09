@@ -8,9 +8,12 @@ Powered by Pygame and Python
 
 For the brave pilots of the Aetherion, defending humanity against the Xerath Dominion.
 
+
 1 Backstory: The Nebula Sector Conflict
 
+
 1.1 Prologue: A Galaxy in Peril
+
 
 In the year 2478, humanity stands on the brink of extinction. Having colonized distant
 star systems, the United Earth Coalition (UEC) thrived in the Nebula Sector, a vibrant region
@@ -20,15 +23,16 @@ insatiable hunger for conquest. Led by the enigmatic Overlord Zykar, the Dominio
 unleashed a devastating assault, obliterating UEC outposts and enslaving entire worlds.
 
 Their ultimate weapon, The Oblivion, a colossal warship capable of annihilating stars,
-looms as a harbinger of doom.
-Amid the chaos, a glimmer of hope emerges: the Aetherion, an experimental starfighter
-equipped with advanced weaponry and unmatched agility. Piloted by Commander Aria
-Vex, a decorated war hero with an unyielding spirit, the Aetherion is humanity’s last
-stand against the Dominion’s tyranny. As the Nebula Sector burns, Aria embarks on a
+looms as a harbinger of doom. Amid the chaos, a glimmer of hope emerges: the Aetherion, an 
+experimental starfighter equipped with advanced weaponry and unmatched agility. Piloted by
+Commander Aria Vex, a decorated war hero with an unyielding spirit, the Aetherion is humanity’s 
+last stand against the Dominion’s tyranny. As the Nebula Sector burns, Aria embarks on a
 perilous mission to repel the invaders, destroy The Oblivion, and uncover the Dominion’s
 dark secrets.
 
+
 1.2 The Rise of Commander Aria Vex
+
 
 Born on the mining colony of Elara-7, Aria Vex grew up amidst the harsh realities of
 frontier life. Her parents, scientists working on experimental propulsion systems, instilled
@@ -43,7 +47,9 @@ the Nebula Sector, capable of reshaping reality itself. As Aria battles through 
 enemies, she must confront her past, forge alliances with unlikely allies, and decide the
 fate of the galaxy.
 
+
 1.3 The Xerath Dominion
+
 
 The Xerath Dominion is a militaristic empire of biomechanical beings, their origins shrouded
 in mystery. Once a peaceful civilization, the Xerath were corrupted by their discovery of
@@ -58,7 +64,9 @@ among defectors suggest Zykar seeks the Starheart to transcend the Void Nexus, b
 a god-like entity. Aria’s mission is to stop this apocalyptic ambition before it consumes
 the galaxy.
 
+
 1.4 Your Mission
+
 
 As Commander Aria Vex, you pilot the Aetherion through the treacherous Nebula Sector.
 Your objectives are clear:
@@ -78,7 +86,9 @@ peace to the Nebula Sector.
 The fate of billions rests in your hands. Launch the Aetherion, and write your legend
 among the stars.
 
+
 2 Game Overview
+
 
 Star Fighter is a vertical-scrolling space shooter where you, as Commander Aria Vex, pilot
 the Aetherion to battle the Xerath Dominion. Survive waves of enemies, defeat powerful
@@ -86,6 +96,7 @@ bosses, and collect power-ups to enhance your ship. Progress through dynamic
 levels, earn high scores, and save humanity from annihilation. The game features immersive
 visuals, dynamic audio, and a variety of gameplay mechanics to test your skill
 and strategy.
+
 
 2.1 Key Features
 
@@ -107,23 +118,34 @@ after a game over.
 • Intuitive Menus: Navigate start screens, ship selection, controls, high scores, and
 an about section with ease.
 
+
 3 Controls
 
 Master the Aetherion’s controls to outmaneuver the Dominion’s forces. All controls are
 customizable via the in-game controls menu.
 
+
 3.1 Gameplay Controls
 
 • Left Arrow: Move the Aetherion left.
+
 • Right Arrow: Move the Aetherion right.
+
 • Up Arrow: Move the Aetherion up.
+
 • Down Arrow: Move the Aetherion down.
-• Space: Fire primary bullets (hold for continuous fire; press rapidly for increased
-damage).
+
+• Space: Fire primary bullets (hold for continuous fire; press rapidly for increased damage).
+
 • M: Fire homing missiles (requires missile power-up).
+
 • B: Deploy a bomb (requires bomb power-up; clears enemies and projectiles).
+
 • P or ESC: Pause the game, opening the pause menu.
+
+
 3.2 Menu Controls
+
 • Up/Down Arrows: Navigate menu options.
 • Left/Right Arrows: Select ships in the ship selection menu or cycle letters in the
 high score entry.
