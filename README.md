@@ -320,12 +320,18 @@ damage in a 50-pixel radius.
 
 
 • Prioritize Power-Ups: Collect shields and missiles early to handle tough waves.
+
 • Conserve Bombs: Save bombs for bosses or overwhelming enemy groups.
+
 • Dodge Patterns: Learn enemy bullet patterns, especially for snipers and bosses.
+
 • Use Missiles Wisely: Missiles auto-target, making them ideal for artillery or leeches.
+
 • Stay Mobile: Constant movement reduces the chance of being hit by asteroids or
 bombs.
+
 • Monitor Health: Grab health packs when below 50 health to avoid losing lives.
+
 • Leverage Invincibility: After losing a life, use the 3-second invincibility to clear
 enemies.
 
@@ -336,9 +342,13 @@ enemies.
 7.1 System Requirements
 
 • Operating System: Windows, macOS, or Linux.
+
 • Python: Version 3.8 or higher.
+
 • Pygame: Version 2.0 or higher.
+
 • Storage: 100 MB for assets (images, sounds).
+
 • Display: Minimum 600x900 resolution.
 
 
@@ -346,8 +356,11 @@ enemies.
 
 
 1. Install Python from python.org.
+
 2. Install Pygame: pip install pygame.
+
 3. Download the Star Fighter game files, including the assets/ folder.
+  
 4. Run star_fighter.py with Python.
 
 
@@ -356,8 +369,10 @@ enemies.
 
 • Missing Assets: If images or sounds are missing, the game uses colored rectangles
 or silence. Ensure the assets/ folder is in the same directory as the game.
+
 • Performance Issues: Enable FPS display (F1) to check frame rate. Lower resolution
 or disable fullscreen (F11) if lag occurs.
+
 • Sound Errors: Check that .wav files are valid and not corrupted.
 
 
@@ -365,9 +380,13 @@ or disable fullscreen (F11) if lag occurs.
 
 
 • Lead Developer: Rizwan N
+
 • Art Designer: Rizwan N
+
 • Music and Sound Effects: freesound.org
+
 • Game Design: Rizwan N
+
 • Thanks: Grok AI, Open AI
 
 
