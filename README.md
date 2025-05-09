@@ -1,4 +1,4 @@
-**Star Fighter
+**Star Fighter**
 
 Version 1.0 — May 2025
 
