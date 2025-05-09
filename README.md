@@ -1,4 +1,4 @@
-Star Fighter
+**Star Fighter
 
 Version 1.0 — May 2025
 
@@ -396,3 +396,4 @@ or disable fullscreen (F11) if lag occurs.
 Thank you for playing Star Fighter! As Commander Aria Vex, you hold humanity’s fate in
 your hands. Unravel the Dominion’s secrets, destroy The Oblivion, and save the galaxy.
 Launch the Aetherion and write your legend among the stars!
+**
