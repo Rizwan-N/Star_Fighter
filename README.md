@@ -8,7 +8,7 @@ Powered by Pygame and Python
 
 For the brave pilots of the Aetherion, defending humanity against the Xerath Dominion.
 
-![screen1](Images/screen1.jpg)  ![screen2](Images/screen.jpg) ![screen3](Images/screen3.jpg)
+![screen1](Images/screen1.jpg)  ![screen2](Images/screen2.jpg) ![screen3](Images/screen3.jpg)
 
 
 **1 Backstory: The Nebula Sector Conflict**
@@ -50,7 +50,7 @@ enemies, she must confront her past, forge alliances with unlikely allies, and d
 fate of the galaxy.
 
 
-1.3 The Xerath Dominion
+**1.3 The Xerath Dominion**
 
 
 The Xerath Dominion is a militaristic empire of biomechanical beings, their origins shrouded
@@ -67,7 +67,7 @@ a god-like entity. Aria’s mission is to stop this apocalyptic ambition before 
 the galaxy.
 
 
-1.4 Your Mission
+**1.4 Your Mission**
 
 
 As Commander Aria Vex, you pilot the Aetherion through the treacherous Nebula Sector.
@@ -89,7 +89,7 @@ The fate of billions rests in your hands. Launch the Aetherion, and write your l
 among the stars.
 
 
-2 Game Overview
+**2 Game Overview**
 
 
 Star Fighter is a vertical-scrolling space shooter where you, as Commander Aria Vex, pilot
@@ -100,7 +100,7 @@ visuals, dynamic audio, and a variety of gameplay mechanics to test your skill
 and strategy.
 
 
-2.1 Key Features
+**2.1 Key Features**
 
 
 • Dynamic Gameplay: Face diverse enemy types, from agile fighters to massive
@@ -122,13 +122,13 @@ after a game over.
 an about section with ease.
 
 
-3 Controls
+**3 Controls**
 
 Master the Aetherion’s controls to outmaneuver the Dominion’s forces. All controls are
 customizable via the in-game controls menu.
 
 
-3.1 Gameplay Controls
+**3.1 Gameplay Controls**
 
 
 • Left Arrow: Move the Aetherion left.
@@ -148,7 +148,7 @@ customizable via the in-game controls menu.
 • P or ESC: Pause the game, opening the pause menu.
 
 
-3.2 Menu Controls
+**3.2 Menu Controls**
 
 
 • Up/Down Arrows: Navigate menu options.
@@ -161,7 +161,7 @@ high score entry.
 • ESC: Return to the previous menu or exit certain screens.
 
 
-3.3 Debug and Display Controls
+**3.3 Debug and Display Controls**
 
 
 • F1: Toggle FPS and frame time display for performance monitoring.
@@ -171,14 +171,14 @@ high score entry.
 • F11: Toggle between windowed and fullscreen modes.
 
 
-4 Gameplay Mechanics
+**4 Gameplay Mechanics**
 
 
 Star Fighter combines fast-paced action with strategic elements. Understanding the mechanics
 is key to surviving the Nebula Sector.
 
 
-4.1 Objective
+**4.1 Objective**
 
 
 Navigate through waves of enemies in each level, culminating in a boss fight. Defeat
@@ -188,7 +188,7 @@ lose a life; lose all lives, and the game ends, prompting a high score entry if 
 qualifies.
 
 
-4.2 Health and Lives
+**4.2 Health and Lives**
 
 
 • Health: The Aetherion starts with 100 health points, displayed as a bar at the topleft.
@@ -202,7 +202,7 @@ and health but clears enemies. Losing all lives triggers a game over.
 to indicate immunity.
 
 
-4.3 Waves and Levels
+**4.3 Waves and Levels**
 
 
 • Waves: Each level consists of 6–10 waves, increasing in enemy count and difficulty.
@@ -216,7 +216,7 @@ asteroid hazards (from level 2).
 bosses: 250+ points, scaled by level). Completing a level grants a 100-point bonus.
 
 
-4.4 Power-Ups
+**4.4 Power-Ups**
 
 
 Power-ups drop randomly from destroyed enemies and last 15 seconds (except bombs).
@@ -232,7 +232,7 @@ Power-up timers are shown on the right side of the screen with colored bars (e.g
 for double shot, blue for shield).
 
 
-4.5 Asteroids
+**4.5 Asteroids**
 
 
 From level 2, asteroids appear as obstacles, moving diagonally downward. They deal 15
@@ -240,7 +240,7 @@ damage to the Aetherion or enemies on collision and require multiple hits to des
 for bullets, 1 for missiles). Bombs instantly clear all asteroids.
 
 
-4.6 Game Over and High Scores
+**4.6 Game Over and High Scores**
 
 
 When all lives are lost, the game ends, displaying your final score. If your score ranks
@@ -249,14 +249,14 @@ leaderboard. High scores are saved to high_scores.txt and viewable in the main
 menu.
 
 
-5 Enemy Types
+**5 Enemy Types**
 
 
 The Xerath Dominion deploys a variety of drones, each with unique behaviors. Knowing
 their patterns is crucial for survival.
 
 
-5.1 Standard Fighter
+**5.1 Standard Fighter**
 
 • Appearance: Small, red ship (Enemy1).
 • Health: 10 (scales with level).
@@ -264,7 +264,7 @@ their patterns is crucial for survival.
 • : 10 points.
 • : Easy to destroy; prioritize when in groups.
 
-5.2 Sniper
+**5.2 Sniper**
 
 • Appearance: Sleek, red ship (Enemy5).
 • Health: 20.
@@ -272,7 +272,7 @@ their patterns is crucial for survival.
 • Score: 15 points.
 • Strategy: Dodge the laser by moving unpredictably; attack during recoil.
 
-5.3 Tank
+**5.3 Tank**
 
 • Appearance: Bulky, red ship (Enemy3).
 • Health: 30.
@@ -280,7 +280,7 @@ their patterns is crucial for survival.
 • Score: 20 points.
 • Strategy: Stay mobile to avoid bombs; requires focused fire.
 
-5.4 Bomber
+**5.4 Bomber**
 
 • Appearance: Wide, red ship (Enemy4).
 • Health: 40.
@@ -288,7 +288,7 @@ their patterns is crucial for survival.
 • Score: 15 points.
 • Strategy: Position between bomb paths; use missiles for quick kills.
 
-5.5 Leech
+**5.5 Leech**
 
 • Appearance: Pulsating, red ship (Enemy6).
 • Health: 20.
@@ -297,7 +297,7 @@ seconds. Pulses visually.
 • Score: 15 points.
 • Strategy: Destroy quickly or maintain distance; bombs are effective.
 
-5.6 Artillery
+**5.6 Artillery**
 
 • Appearance: Large, stationary platform (Enemy7).
 • Health: 50.
@@ -306,7 +306,7 @@ damage in a 50-pixel radius.
 • Score: 20 points.
 • Strategy: Stay mobile and attack from a distance; shields protect against explosions.
 
-5.7 Bosses
+**5.7 Bosses**
 
 • Appearance: Massive, varied designs (Boss1–8).
 • Health: 300 + 75 per level.
@@ -318,7 +318,7 @@ damage in a 50-pixel radius.
 • Strategy: Focus on dodging bullet patterns; use missiles and bombs in Phase 3.
 
 
-6 Tips and Strategies
+**6 Tips and Strategies**
 
 
 • Prioritize Power-Ups: Collect shields and missiles early to handle tough waves.
@@ -338,10 +338,10 @@ bombs.
 enemies.
 
 
-7 Technical Information
+**7 Technical Information**
 
 
-7.1 System Requirements
+**7.1 System Requirements**
 
 • Operating System: Windows, macOS, or Linux.
 
@@ -354,19 +354,19 @@ enemies.
 • Display: Minimum 600x900 resolution.
 
 
-7.2 Installation
+**7.2 Installation**
 
 
 1. Install Python from python.org.
 
 2. Install Pygame: pip install pygame.
 
-3. Download the Star Fighter game files, including the assets/ folder.
+3. Download the Star Fighter game files, including the assets/ folder in assets.zip file.
   
 4. Run star_fighter.py with Python.
 
 
-7.3 Troubleshooting
+**7.3 Troubleshooting**
 
 
 • Missing Assets: If images or sounds are missing, the game uses colored rectangles
@@ -378,7 +378,7 @@ or disable fullscreen (F11) if lag occurs.
 • Sound Errors: Check that .wav files are valid and not corrupted.
 
 
-8 Credits
+**8 Credits**
 
 
 • Lead Developer: Rizwan N
@@ -392,10 +392,9 @@ or disable fullscreen (F11) if lag occurs.
 • Thanks: Grok AI, Open AI
 
 
-9 Final Note
+**9 Final Note**
 
 
 Thank you for playing Star Fighter! As Commander Aria Vex, you hold humanity’s fate in
 your hands. Unravel the Dominion’s secrets, destroy The Oblivion, and save the galaxy.
 Launch the Aetherion and write your legend among the stars!
-**
