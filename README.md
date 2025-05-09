@@ -100,6 +100,7 @@ and strategy.
 
 2.1 Key Features
 
+
 • Dynamic Gameplay: Face diverse enemy types, from agile fighters to massive
 bosses, across multiple levels.
 
@@ -127,6 +128,7 @@ customizable via the in-game controls menu.
 
 3.1 Gameplay Controls
 
+
 • Left Arrow: Move the Aetherion left.
 
 • Right Arrow: Move the Aetherion right.
@@ -146,42 +148,75 @@ customizable via the in-game controls menu.
 
 3.2 Menu Controls
 
+
 • Up/Down Arrows: Navigate menu options.
+
 • Left/Right Arrows: Select ships in the ship selection menu or cycle letters in the
 high score entry.
+
 • Enter: Confirm selection in menus or start the game from the start screen.
+
 • ESC: Return to the previous menu or exit certain screens.
+
+
 3.3 Debug and Display Controls
+
+
 • F1: Toggle FPS and frame time display for performance monitoring.
+
 • F2: Toggle debug mode, showing detailed game state information.
+
 • F11: Toggle between windowed and fullscreen modes.
+
+
 4 Gameplay Mechanics
+
+
 Star Fighter combines fast-paced action with strategic elements. Understanding the mechanics
 is key to surviving the Nebula Sector.
+
+
 4.1 Objective
+
+
 Navigate through waves of enemies in each level, culminating in a boss fight. Defeat
 the boss to advance to the next level. Collect power-ups to enhance your capabilities
 and earn points to climb the high score leaderboard. If your health reaches zero, you
 lose a life; lose all lives, and the game ends, prompting a high score entry if your score
 qualifies.
+
+
 4.2 Health and Lives
+
+
 • Health: The Aetherion starts with 100 health points, displayed as a bar at the topleft.
 Damage from enemies, bullets, bombs, or asteroids reduces health. If health
 reaches zero, you lose a life.
+
 • Lives: You begin with 3 lives, shown as heart icons. Losing a life resets your position
 and health but clears enemies. Losing all lives triggers a game over.
-Star Fighter Game Manual 5 of 8
+
 • Invincibility: After losing a life, you’re temporarily invincible (3 seconds), blinking
 to indicate immunity.
+
+
 4.3 Waves and Levels
+
+
 • Waves: Each level consists of 6–10 waves, increasing in enemy count and difficulty.
 Waves 1–5 spawn standard enemies; wave 6 introduces a boss.
+
 • Levels: Completing a boss fight advances you to the next level, with more enemies,
 faster spawns, and tougher bosses. Levels feature new backgrounds and increased
 asteroid hazards (from level 2).
+
 • Scoring: Destroy enemies to earn points (e.g., standard enemies: 10–20 points,
 bosses: 250+ points, scaled by level). Completing a level grants a 100-point bonus.
+
+
 4.4 Power-Ups
+
+
 Power-ups drop randomly from destroyed enemies and last 15 seconds (except bombs).
 They include:
 • Health Pack: Restores 25 health points (up to 100).
@@ -193,59 +228,84 @@ They include:
 (‘B’).
 Power-up timers are shown on the right side of the screen with colored bars (e.g., yellow
 for double shot, blue for shield).
+
+
 4.5 Asteroids
+
+
 From level 2, asteroids appear as obstacles, moving diagonally downward. They deal 15
 damage to the Aetherion or enemies on collision and require multiple hits to destroy (3
 for bullets, 1 for missiles). Bombs instantly clear all asteroids.
+
+
 4.6 Game Over and High Scores
+
+
 When all lives are lost, the game ends, displaying your final score. If your score ranks
 among the top 5 or there are fewer than 5 scores, enter your 3-letter initials for the
 leaderboard. High scores are saved to high_scores.txt and viewable in the main
 menu.
+
+
 5 Enemy Types
+
+
 The Xerath Dominion deploys a variety of drones, each with unique behaviors. Knowing
 their patterns is crucial for survival.
-Star Fighter Game Manual 6 of 8
+
+
 5.1 Standard Fighter
+
 • Appearance: Small, red ship (Enemy1).
 • Health: 10 (scales with level).
 • : Moves downward, firing yellow bullets.
 • : 10 points.
 • : Easy to destroy; prioritize when in groups.
+
 5.2 Sniper
+
 • Appearance: Sleek, red ship (Enemy5).
 • Health: 20.
 • Behavior: Pauses to aim, firing a high-damage red laser. Blinks during targeting.
 • Score: 15 points.
 • Strategy: Dodge the laser by moving unpredictably; attack during recoil.
+
 5.3 Tank
+
 • Appearance: Bulky, red ship (Enemy3).
 • Health: 30.
 • Behavior: Fires slow, orange bombs that deal 15 damage.
 • Score: 20 points.
 • Strategy: Stay mobile to avoid bombs; requires focused fire.
+
 5.4 Bomber
+
 • Appearance: Wide, red ship (Enemy4).
 • Health: 40.
 • Behavior: Drops three magenta bombs in a spread pattern.
 • Score: 15 points.
 • Strategy: Position between bomb paths; use missiles for quick kills.
+
 5.5 Leech
+
 • Appearance: Pulsating, red ship (Enemy6).
 • Health: 20.
 • Behavior: Tethers to the Aetherion within 200 pixels, halving your speed for 3
 seconds. Pulses visually.
 • Score: 15 points.
 • Strategy: Destroy quickly or maintain distance; bombs are effective.
-Star Fighter Game Manual 7 of 8
+
 5.6 Artillery
+
 • Appearance: Large, stationary platform (Enemy7).
 • Health: 50.
 • Behavior: Fires arcing shells that explode on impact or after 400 pixels, dealing 20
 damage in a 50-pixel radius.
 • Score: 20 points.
 • Strategy: Stay mobile and attack from a distance; shields protect against explosions.
+
 5.7 Bosses
+
 • Appearance: Massive, varied designs (Boss1–8).
 • Health: 300 + 75 per level.
 • Phases:
@@ -254,7 +314,11 @@ damage in a 50-pixel radius.
 – Phase 3 (<33% health): Fires five bullets, moves erratically, and drops bombs.
 • Score: 250 points (scaled by level).
 • Strategy: Focus on dodging bullet patterns; use missiles and bombs in Phase 3.
+
+
 6 Tips and Strategies
+
+
 • Prioritize Power-Ups: Collect shields and missiles early to handle tough waves.
 • Conserve Bombs: Save bombs for bosses or overwhelming enemy groups.
 • Dodge Patterns: Learn enemy bullet patterns, especially for snipers and bosses.
@@ -264,32 +328,52 @@ bombs.
 • Monitor Health: Grab health packs when below 50 health to avoid losing lives.
 • Leverage Invincibility: After losing a life, use the 3-second invincibility to clear
 enemies.
+
+
 7 Technical Information
+
+
 7.1 System Requirements
+
 • Operating System: Windows, macOS, or Linux.
 • Python: Version 3.8 or higher.
 • Pygame: Version 2.0 or higher.
 • Storage: 100 MB for assets (images, sounds).
-Star Fighter Game Manual 8 of 8
 • Display: Minimum 600x900 resolution.
+
+
 7.2 Installation
+
+
 1. Install Python from python.org.
 2. Install Pygame: pip install pygame.
 3. Download the Star Fighter game files, including the assets/ folder.
 4. Run star_fighter.py with Python.
+
+
 7.3 Troubleshooting
+
+
 • Missing Assets: If images or sounds are missing, the game uses colored rectangles
 or silence. Ensure the assets/ folder is in the same directory as the game.
 • Performance Issues: Enable FPS display (F1) to check frame rate. Lower resolution
 or disable fullscreen (F11) if lag occurs.
 • Sound Errors: Check that .wav files are valid and not corrupted.
+
+
 8 Credits
+
+
 • Lead Developer: Rizwan N
 • Art Designer: Rizwan N
 • Music and Sound Effects: freesound.org
 • Game Design: Rizwan N
 • Thanks: Grok AI, Open AI
+
+
 9 Final Note
+
+
 Thank you for playing Star Fighter! As Commander Aria Vex, you hold humanity’s fate in
 your hands. Unravel the Dominion’s secrets, destroy The Oblivion, and save the galaxy.
 Launch the Aetherion and write your legend among the stars!
