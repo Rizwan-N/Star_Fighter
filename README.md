@@ -9,10 +9,10 @@ Powered by Pygame and Python
 For the brave pilots of the Aetherion, defending humanity against the Xerath Dominion.
 
 
-1 Backstory: The Nebula Sector Conflict
+**1 Backstory: The Nebula Sector Conflict**
 
 
-1.1 Prologue: A Galaxy in Peril
+**1.1 Prologue: A Galaxy in Peril**
 
 
 In the year 2478, humanity stands on the brink of extinction. Having colonized distant
@@ -31,7 +31,7 @@ perilous mission to repel the invaders, destroy The Oblivion, and uncover the Do
 dark secrets.
 
 
-1.2 The Rise of Commander Aria Vex
+**1.2 The Rise of Commander Aria Vex**
 
 
 Born on the mining colony of Elara-7, Aria Vex grew up amidst the harsh realities of
