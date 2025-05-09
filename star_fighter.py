@@ -42,7 +42,7 @@ def play_menu_music():
             if GAME_OVER_SOUND:
                 GAME_OVER_SOUND.stop()
             pygame.mixer.music.stop()
-            load_music("assets/main_menu.wav")
+            load_music("assets/main_menu.mp3")
             pygame.mixer.music.play(-1)
             is_menu_music_playing = True
         except pygame.error as e:
@@ -57,7 +57,7 @@ def play_game_music():
         if GAME_OVER_SOUND:
             GAME_OVER_SOUND.stop()
         pygame.mixer.music.fadeout(500)
-        load_music("assets/game_music.wav")
+        load_music("assets/game_music.mp3")
         pygame.mixer.music.set_volume(0.3)
         pygame.mixer.music.play(-1)
         is_menu_music_playing = False
@@ -236,7 +236,7 @@ ARTILLERY_SHOT_SOUND = load_sound("assets/artillery_shot.wav")
 MISSILE_SHOT_SOUND = load_sound("assets/missile_shot.wav")
 POWERUP_COLLECT_SOUND = load_sound("assets/powerup_collect.wav")
 HEALTH_PACK_COLLECT_SOUND = load_sound("assets/health_pack_collect.wav")
-GAME_OVER_SOUND = load_sound("assets/game_over.wav")
+GAME_OVER_SOUND = load_sound("assets/game_over.mp3")
 PLAYER_COLLISION_SOUND = load_sound("assets/player_collision.wav")
 
 # Precompute sin table for enemy movement
