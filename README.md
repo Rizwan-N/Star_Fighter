@@ -1,52 +1,24 @@
-Star Fighter Game Manual
+Star Fighter
+
 Version 1.0 — May 2025
+
 Developed by Rizwan N
+
 Powered by Pygame and Python
+
 For the brave pilots of the Aetherion, defending humanity against the Xerath Dominion.
-Star Fighter Game Manual 1 of 8
-Contents
-1 Backstory: The Nebula Sector Conflict 2
-1.1 Prologue: A Galaxy in Peril . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
-1.2 The Rise of Commander Aria Vex . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
-1.3 The Xerath Dominion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
-1.4 Your Mission . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
-2 Game Overview 3
-2.1 Key Features . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
-3 Controls 3
-3.1 Gameplay Controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-3.2 Menu Controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-3.3 Debug and Display Controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-4 Gameplay Mechanics 4
-4.1 Objective . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-4.2 Health and Lives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-4.3 Waves and Levels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
-4.4 Power-Ups . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
-4.5 Asteroids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
-4.6 Game Over and High Scores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
-5 Enemy Types 5
-5.1 Standard Fighter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-5.2 Sniper . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-5.3 Tank . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-5.4 Bomber . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-5.5 Leech . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-5.6 Artillery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-5.7 Bosses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-6 Tips and Strategies 7
-7 Technical Information 7
-7.1 System Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-7.2 Installation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
-7.3 Troubleshooting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
-8 Credits 8
-9 Final Note 8
-Star Fighter Game Manual 2 of 8
+
 1 Backstory: The Nebula Sector Conflict
+
 1.1 Prologue: A Galaxy in Peril
+
 In the year 2478, humanity stands on the brink of extinction. Having colonized distant
 star systems, the United Earth Coalition (UEC) thrived in the Nebula Sector, a vibrant region
 of swirling cosmic clouds and resource-rich planets. The sector’s prosperity, however,
 drew the attention of the Xerath Dominion, a ruthless alien empire driven by an
 insatiable hunger for conquest. Led by the enigmatic Overlord Zykar, the Dominion
 unleashed a devastating assault, obliterating UEC outposts and enslaving entire worlds.
+
 Their ultimate weapon, The Oblivion, a colossal warship capable of annihilating stars,
 looms as a harbinger of doom.
 Amid the chaos, a glimmer of hope emerges: the Aetherion, an experimental starfighter
@@ -55,7 +27,9 @@ Vex, a decorated war hero with an unyielding spirit, the Aetherion is humanity�
 stand against the Dominion’s tyranny. As the Nebula Sector burns, Aria embarks on a
 perilous mission to repel the invaders, destroy The Oblivion, and uncover the Dominion’s
 dark secrets.
+
 1.2 The Rise of Commander Aria Vex
+
 Born on the mining colony of Elara-7, Aria Vex grew up amidst the harsh realities of
 frontier life. Her parents, scientists working on experimental propulsion systems, instilled
 in her a passion for technology and a fierce determination. When the Dominion
@@ -68,7 +42,9 @@ Dominion’s motives—rumors whisper of an ancient artifact, the Starheart, hid
 the Nebula Sector, capable of reshaping reality itself. As Aria battles through waves of
 enemies, she must confront her past, forge alliances with unlikely allies, and decide the
 fate of the galaxy.
+
 1.3 The Xerath Dominion
+
 The Xerath Dominion is a militaristic empire of biomechanical beings, their origins shrouded
 in mystery. Once a peaceful civilization, the Xerath were corrupted by their discovery of
 the Void Nexus, a dimension of raw, destructive energy. Fusing their biology with Void
@@ -81,45 +57,63 @@ deploying devastating weaponry and spawning endless waves of drones. Yet, whispe
 among defectors suggest Zykar seeks the Starheart to transcend the Void Nexus, becoming
 a god-like entity. Aria’s mission is to stop this apocalyptic ambition before it consumes
 the galaxy.
-Star Fighter Game Manual 3 of 8
+
 1.4 Your Mission
+
 As Commander Aria Vex, you pilot the Aetherion through the treacherous Nebula Sector.
 Your objectives are clear:
+
 • Survive Waves of Enemies: Battle through increasingly difficult waves of Dominion
 forces, from standard fighters to specialized drones.
+
 • Defeat Bosses: Confront the Dominion’s elite commanders, each guarding a piece
 of the puzzle to The Oblivion’s location.
+
 • Uncover Secrets: Collect intel from destroyed enemies and power-ups to reveal
 the Dominion’s plans and the Starheart’s location.
-• .Destroy The Oblivion: Face the ultimate challenge to save humanity and restore
+
+• Destroy The Oblivion: Face the ultimate challenge to save humanity and restore
 peace to the Nebula Sector.
+
 The fate of billions rests in your hands. Launch the Aetherion, and write your legend
 among the stars.
+
 2 Game Overview
+
 Star Fighter is a vertical-scrolling space shooter where you, as Commander Aria Vex, pilot
 the Aetherion to battle the Xerath Dominion. Survive waves of enemies, defeat powerful
 bosses, and collect power-ups to enhance your ship. Progress through dynamic
 levels, earn high scores, and save humanity from annihilation. The game features immersive
 visuals, dynamic audio, and a variety of gameplay mechanics to test your skill
 and strategy.
+
 2.1 Key Features
+
 • Dynamic Gameplay: Face diverse enemy types, from agile fighters to massive
 bosses, across multiple levels.
+
 • Power-Ups: Collect enhancements like double shot, shields, missiles, speed boosts,
 and bombs to turn the tide of battle.
+
 • Immersive Audio-Visuals: Enjoy scrolling backgrounds, vibrant sprites, and a thrilling
 soundtrack with sound effects.
+
 • Progression System: Advance through waves and levels, with increasing difficulty
 and rewarding challenges.
+
 • High Score System: Compete for a spot on the leaderboard by entering your initials
 after a game over.
+
 • Intuitive Menus: Navigate start screens, ship selection, controls, high scores, and
 an about section with ease.
+
 3 Controls
+
 Master the Aetherion’s controls to outmaneuver the Dominion’s forces. All controls are
 customizable via the in-game controls menu.
-Star Fighter Game Manual 4 of 8
+
 3.1 Gameplay Controls
+
 • Left Arrow: Move the Aetherion left.
 • Right Arrow: Move the Aetherion right.
 • Up Arrow: Move the Aetherion up.
